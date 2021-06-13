@@ -36,5 +36,5 @@ let dic={
     name:'gnan',
     tech:'js'
 }
-console.log(dic[input]);
+console.log(dic[input]);   //if i use . it shows undefined
 
