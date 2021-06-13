@@ -60,7 +60,7 @@ console.log("******************");
 console.log(details.education.school1);   //we get ouput as undefined
 // console.log(details.education.school.length)             //we get eror in this case ....so to avoid error we use"?"
 
-//console.log(details.education.school1?.length);  //may get erroe in some versions 
+console.log(details.education.school1?.length);  //may get erroe in some versions 
 //soo im any use it better to use
 console.log("******************");
 
@@ -68,4 +68,4 @@ console.log("******************");
 delete details.education.College
 console.log(details);
 
-console.log("******************");
+
